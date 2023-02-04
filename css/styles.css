@@ -1,0 +1,148 @@
+:root {
+  --brand-font: "Roboto", sans-serif;
+  --brand-color: #2196f3;
+  --brand-text-color: #757575;
+  --brand-bg-color: #2f303a;
+}
+
+body {
+  color: var(--brand-text-color);
+  font-family: var(--brand-font);
+  font-size: 14px;
+  line-height: 24px;
+}
+
+/* nawigacja */
+.logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 1.86rem;
+  line-height: 2.18rem;
+  text-decoration: none;
+}
+.logo-color-1 {
+  color: var(--brand-color);
+}
+.logo-color-2 {
+  color: #000000;
+}
+
+.logo-color-3 {
+  color: #ffffff;
+}
+
+.list {
+  list-style-type: none;
+  line-height: 1.14rem;
+}
+
+.link {
+  font-weight: 500;
+  color: #212121;
+  list-style-type: none;
+  text-decoration: none;
+}
+.link:hover,
+.link:focus {
+  color: var(--brand-color);
+}
+.contact {
+  color: var(--brand-text-color);
+}
+
+/* pierwszy div */
+.wrapper {
+  background-color: var(--brand-bg-color);
+}
+.header {
+  font-weight: 900;
+  font-size: 3.14rem;
+  line-height: 4.28;
+  color: #ffffff;
+  text-align: center;
+}
+.order-button {
+  background: var(--brand-color);
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 1.14rem;
+  line-height: 2.14rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+.menu,
+button {
+  font-weight: 500;
+  font-size: 1.14rem;
+  line-height: 1.86rem;
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.menu-button:hover,
+.menu-button:focus {
+  background: var(--brand-color);
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 1.14rem;
+  line-height: 1.86rem;
+}
+
+/* main - sekcja z tekstem */
+.secondary-header {
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.14rem;
+  color: #212121;
+  text-transform: uppercase;
+}
+
+/* Czym się zajmujemy i zespół */
+.article-header {
+  font-weight: 700;
+  font-size: 2.57rem;
+  line-height: 3rem;
+  color: #212121;
+  text-align: center;
+}
+.wrapper2 {
+  background-color: #f5f4fa;
+}
+
+.name {
+  font-weight: 500;
+  font-size: 1.14rem;
+  line-height: 1.34rem;
+  color: #212121;
+  text-align: center;
+}
+.job-description {
+  font-size: 1.14rem;
+  line-height: 18.75px;
+  text-align: center;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 1.28rem;
+  line-height: 2.57rem;
+  color: #212121;
+}
+
+.title-description {
+  font-size: 1.14rem;
+  line-height: 2.14rem;
+}
+
+/* footer */
+.address-details {
+  color: #ffffff;
+  font-style: normal;
+}
+
+.link-color {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  font-style: normal;
+}
