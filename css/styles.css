@@ -146,3 +146,7 @@ button {
   text-decoration: none;
   font-style: normal;
 }
+
+.link-color:hover {
+  color: var(--brand-color);
+}
