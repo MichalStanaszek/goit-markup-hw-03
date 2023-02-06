@@ -156,8 +156,8 @@ button {
 .company-products {
   display: flex;
   list-style-type: none;
-  justify-content: space-between;
-  margin: 0;
+  justify-content: center;
+  margin: 0px 30px;
   padding: 0;
 }
 .company-header {
