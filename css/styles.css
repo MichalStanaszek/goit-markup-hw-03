@@ -12,6 +12,11 @@ body {
   line-height: 24px;
 }
 
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 /* nawigacja */
 
 .logo {
@@ -34,7 +39,7 @@ body {
 .page-header {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   height: 80px;
   border-style: solid;
   border-width: 1px;
@@ -42,9 +47,9 @@ body {
 }
 
 .page-navigation {
+  display: flex;
   list-style-type: none;
   line-height: 1.14rem;
-  display: flex;
   padding-left: 0px;
 }
 
@@ -60,9 +65,9 @@ body {
 }
 
 .page-contact {
+  display: flex;
   list-style-type: none;
   line-height: 1.14rem;
-  display: flex;
 }
 
 .contact {
@@ -142,16 +147,13 @@ button {
 
 .post-text {
   width: 270px;
-  height: 101px;
+  height: 75px;
   margin: 0;
-  letter-spacing: 0.03rem;
 }
 /* Czym się zajmujemy i zespół */
 
 .company {
-  margin-bottom: 94px;
-  margin-left: 215px;
-  margin-right: 215px;
+  margin: 0 auto 94px;
 }
 .company-products {
   display: flex;
@@ -198,6 +200,9 @@ button {
   height: 368px;
   background-color: #ffffff;
   margin: 0px 15px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-details {
