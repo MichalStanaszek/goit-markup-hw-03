@@ -109,6 +109,11 @@ body {
   border-radius: 4px;
 }
 
+.list-button {
+  display: flex;
+  justify-content: center;
+  margin: 94px auto 50px;
+}
 .menu,
 button {
   font-weight: 500;
@@ -116,6 +121,10 @@ button {
   line-height: 1.86rem;
   list-style-type: none;
   cursor: pointer;
+  padding: 6px 22px;
+  margin: 8px;
+  border-style: none;
+  border-radius: 4px;
 }
 
 .menu-button:hover,
@@ -205,7 +214,8 @@ button {
   border-radius: 0px 0px 4px 4px;
 }
 
-.team-details {
+.team-details,
+.card-description {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -224,6 +234,28 @@ button {
   font-size: 1.14rem;
   line-height: 18.75px;
   text-align: center;
+}
+
+/* portfolio - siatka produktów */
+
+.card-set {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 94px;
+}
+
+.card-properties {
+  max-width: 370px;
+  flex-basis: calc((100% - 20px) / 3);
+  border: 1px solid #eeeeee;
+}
+
+.card-details {
+  margin: 0;
 }
 
 .title {
