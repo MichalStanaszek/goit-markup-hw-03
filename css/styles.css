@@ -79,7 +79,9 @@ body {
   margin: 32px 46px 0 0;
 }
 .link:hover,
-.link:focus {
+.link:focus,
+.contact:hover,
+.contact:focus {
   color: var(--brand-color);
 }
 
